@@ -25,6 +25,8 @@ List of python libraries
 
 <b>Step 3:</b> Construction of LSTM model In this step, we constructed an LSTM model based on the description presented below.<br> 
 
+<b>Step 3:</b> Construction of GRU model In this step, we constructed an GRU model based on the description presented below.<br>
+
 <b>Step 4:</b> Forecasting future values In the final step, we forecast the future values based on the previous values of USD/INR.<br><br>
 
 ## Model Description
@@ -32,19 +34,20 @@ List of python libraries
 The model consists of a single layered LSTMs with 100 neurons followed by dropouts for regularization and the dense layer for desired out was used. The model summary for the project is as follows.<br><br>
 ![image](https://user-images.githubusercontent.com/54568147/97261690-5acb1200-1845-11eb-85cf-14abb5e54fad.png)<br><br>
 
+Similarly another model consisting of single layered GRUs with 100 neurons followed by dropouts for regularization and the dense layer for desired out was used. The model summary for the project is as follows.<br><br>
+![Picture1](https://user-images.githubusercontent.com/54568147/103979870-b0f0f580-51a4-11eb-96be-f26ac4b14b40.png)<br><br>
+
 ## Results
 
 ### <b>1.</b> Srapping Rupee price for Dollar from 2015 onwards<br>
 ![image](https://user-images.githubusercontent.com/54568147/97261339-a16c3c80-1844-11eb-8e94-ea98d5499369.png)<br>
 
 ### <b>2.</b> Training Loss Vs Validation Loss comparison<br>
-![image](https://user-images.githubusercontent.com/54568147/97261437-d8425280-1844-11eb-917f-00786af72820.png)<br>
-![image](https://user-images.githubusercontent.com/54568147/97261445-de383380-1844-11eb-98c4-951aa2839338.png)<br>
+![Screenshot from 2021-01-08 11-31-05](https://user-images.githubusercontent.com/54568147/103980297-a4b96800-51a5-11eb-8096-bc33326d6530.png)
+<br>
 
 ### <b>3.</b> Predicted Prices for training and test set<br>
-![image](https://user-images.githubusercontent.com/54568147/97261538-0cb60e80-1845-11eb-938b-59941db84100.png)<br>
-    Training performance<br>
-![image](https://user-images.githubusercontent.com/54568147/97261548-0fb0ff00-1845-11eb-9249-a0ff32bb296b.png)<br>
-    Testing Performance<br>
+![Picture2](https://user-images.githubusercontent.com/54568147/103980146-4db39300-51a5-11eb-9860-7aec75319ec5.png)<br>
+![Picture3](https://user-images.githubusercontent.com/54568147/103980185-62902680-51a5-11eb-903e-defcc988135f.png)<br>
 
 
